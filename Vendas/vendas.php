@@ -1,6 +1,5 @@
 
 <?php
-include_once "venda.php";
 $FILE_COMANDAS = 'Comandas/'; // Define the correct path to the JSON files
 ?>
 
