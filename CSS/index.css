@@ -1,0 +1,96 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a fonte padrão */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Cor de fundo suave */
+    color: #333; /* Texto em cinza escuro */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.Container {
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 128, 0, 0.1); /* Sombra suave verde */
+    padding: 30px;
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+/* Estilo do título principal */
+h1 {
+    font-size: 36px;
+    color: #4caf50; /* Verde pastel */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 128, 0, 0.2); /* Sombra sutil verde */
+}
+
+/* Estilo das caixas (Produtos, Estoque, Fornecedores) */
+.Caixa, .Estoque, .Vender {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2); /* Sombra verde suave */
+}
+
+.Caixa {
+    background-color: #d0f4e2; /* Verde claro pastel */
+}
+
+.Estoque {
+    background-color: #e1f5fe; /* Azul claro pastel */
+}
+
+.Vender {
+    background-color: #f8bbd0; /* Rosa claro pastel */
+}
+
+.Caixa h2, .Estoque h2, .Vender h2 {
+    color: #388e3c; /* Verde mais escuro */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilo dos links */
+a {
+    text-decoration: none;
+    color: #4caf50; /* Verde pastel */
+    font-size: 18px;
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #a5d6a7; /* Cor de fundo quando passar o mouse */
+    color: #ffffff; /* Texto branco ao passar o mouse */
+}
+
+/* Responsividade: Ajustes para telas menores */
+@media (max-width: 768px) {
+    .Container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .Caixa, .Estoque, .Vender {
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "estoque_antes": [
+        {
+            "id": "7",
+            "nome": "Coca Cola 2L",
+            "quantidade": "45",
+            "preco": "13.5"
+        },
+        {
+            "id": "8",
+            "nome": "Goiaba",
+            "quantidade": "43",
+            "preco": "35"
+        }
+    ],
+    "itens_vendidos": [
+        {
+            "numero": "148",
+            "status": "fechada",
+            "produtos": [],
+            "horario_aberto": "2025-02-03 18:17:17",
+            "horario_fechado": "2025-02-03 19:01:03"
+        },
+        {
+            "numero": "1480",
+            "status": "fechada",
+            "produtos": [
+                {
+                    "id": "8",
+                    "nome": "Goiaba",
+                    "quantidade": 7
+                },
+                {
+                    "id": "7",
+                    "nome": "Coca Cola 2L",
+                    "quantidade": 5
+                }
+            ],
+            "horario_aberto": "2025-02-03 18:33:38",
+            "horario_fechado": "2025-02-03 19:01:15"
+        }
+    ],
+    "valor_inicial_estoque": "3",
+    "valor_final_estoque": 1800,
+    "total_vendas": 312.5,
+    "lucro": 2109.5,
+    "data_fechamento": "2025-02-03 19:54:37"
+}

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Top_bar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.Top_bar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.Abrir_comanda {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.Comandas_abertas {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.comanda-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.comanda-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 250px;
+}
+
+.comanda-button:hover {
+    background-color: #45a049;
+}
+
+.comanda-aberta {
+    background-color: #4CAF50; /* Verde para comandas abertas */
+}
+
+.comanda-fechada {
+    background-color: #f44336; /* Vermelho para comandas fechadas */
+}
+
+.comanda-emaberto {
+    background-color: #ff9800; /* Laranja para comandas em aberto */
+}
+
+/* Ajusta o tamanho dos botões conforme o tamanho da tela */
+@media (min-width: 600px) {
+    .comanda-button {
+        width: 200px;
+    }
+}
+
+@media (min-width: 900px) {
+    .comanda-button {
+        width: 250px;
+    }
+}

@@ -1,0 +1,137 @@
+/* Definindo a estrutura geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.estoque, .carrinho {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+/* Estilo dos itens de estoque */
+.estoque .item {
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.estoque .item button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.estoque .item button:hover {
+    background-color: #218838;
+}
+
+/* Estilo dos itens no carrinho */
+.carrinho .cart-item {
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carrinho .cart-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.carrinho .cart-item button:hover {
+    background-color: #c82333;
+}
+
+/* Botões gerais */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo de mensagens */
+p {
+    color: #777;
+}
+
+#carrinhoItems {
+    margin-top: 15px;
+}
+
+/* Estilo do formulário de adicionar/remover produtos */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="number"], form input[type="text"], form input[type="date"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Adicionando algumas responsividades */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .estoque, .carrinho {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

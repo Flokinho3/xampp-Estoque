@@ -1,0 +1,121 @@
+/* Estilo para o body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o container principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para o título principal */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 32px;
+}
+
+/* Seções do caixa */
+.AbriCaixa, .FecharCaixa, .Historico {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos das seções */
+.AbriCaixa h2, .FecharCaixa h2, .Historico h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilo do formulário dentro da seção Abrir Caixa */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para a tabela de histórico */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+table tr:hover td {
+    background-color: #f1f1f1;
+}
+
+/* Estilo para a confirmação de fechamento */
+button[onclick] {
+    background-color: #f44336;
+}
+
+button[onclick]:hover {
+    background-color: #e53935;
+}
+
+/* Mensagens de estado do caixa */
+.AbriCaixa h2, .FecharCaixa h2 {
+    font-size: 20px;
+    color: #e53935;
+    text-align: center;
+}
+.Top_bar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.Top_bar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Top_bar a:hover {
+    text-decoration: underline;
+}

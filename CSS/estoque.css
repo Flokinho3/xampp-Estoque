@@ -1,0 +1,94 @@
+/* Estilos para a barra superior */
+.Top_bar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.Top_bar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Top_bar a:hover {
+    text-decoration: underline;
+}
+
+/* Container geral */
+.Container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para os títulos */
+h1, h2 {
+    color: #333;
+}
+
+/* Seção de adicionar produto */
+.Estoque_adicionar, .Editar_produto, .Estoque_remover {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.Estoque_adicionar h2, .Editar_produto h2, .Estoque_remover h2 {
+    font-size: 22px;
+}
+
+/* Formulários dentro das seções */
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="date"] {
+    width: 48%;
+    display: inline-block;
+}
+
+form input[type="number"] {
+    width: 48%;
+    display: inline-block;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para os itens do estoque */
+.Estoque_geral {
+    margin-top: 20px;
+}
+
+.Estoque_item {
+    background-color: #e9e9e9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.Estoque_item p {
+    margin: 5px 0;
+}
+
+/* Estilos para esconder/mostrar campos */
+#produtoDados, #produtoRemoverDados {
+    display: none;
+}

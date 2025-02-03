@@ -1,0 +1,130 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalhos */
+h1, h2 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+/* Links de comanda */
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #45a049;
+}
+
+/* Lista de produtos */
+ul li {
+    font-size: 16px;
+}
+
+ul li form {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Botões grandes */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Botões específicos com cores diferentes */
+button.aberto {
+    background-color: #4CAF50; /* Verde */
+}
+
+button.fechado {
+    background-color: #f44336; /* Vermelho */
+}
+
+button.emAberto {
+    background-color: #FFC107; /* Amarelo */
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Seção de informações da comanda */
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+/* Estilo para os produtos removidos */
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Estilos adicionais para os números no botão */
+button span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Top_bar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.Top_bar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Top_bar a:hover {
+    text-decoration: underline;
+}
